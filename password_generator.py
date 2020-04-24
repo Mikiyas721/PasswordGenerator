@@ -48,6 +48,7 @@ def generate_password(length: int, random_type: str):
 mainWindow = Tk()
 mainWindow.title("Password Generator")
 mainWindow.geometry("400x200")
+mainWindow.resizable(width=False, height=False)
 mainWindow['padx'] = 8
 mainWindow['pady'] = 8
 
@@ -80,9 +81,9 @@ alphaNumericRadioButton.grid(row=2, column=0, sticky="w")
 
 
 def on_button_click():
-	if numberRadioButton['value'] == numberRadioButton['variable']:
+	if optionsInt.get() == 1:
 		outputLabel.config(text=generate_password(int(lengthSpinner.get()), "number"))
-	elif optionsInt == 2:
+	elif optionsInt.get() == 2:
 		outputLabel.config(text=generate_password(int(lengthSpinner.get()), "string"))
 	else:
 		outputLabel.config(text=generate_password(int(lengthSpinner.get()), "alpha"))
@@ -93,7 +94,6 @@ charRadioButton['command'] = on_button_click
 alphaNumericRadioButton['command'] = on_button_click
 
 lengthSpinner['command'] = on_button_click
-
 
 generateButton = Button(mainWindow, text="Generate", command=on_button_click)
 generateButton.grid(row=3, column=1)
