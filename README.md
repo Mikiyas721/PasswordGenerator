@@ -1,2 +1,2 @@
-# PasswordGenerator
-Random password generator
+# Python Exercises
+ - Random Password Generator
