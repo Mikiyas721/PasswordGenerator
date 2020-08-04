@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d30cc33-cccb-4f1e-8eba-2a5661b2e531" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,25 +14,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_Exercises$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1587768472766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Exercises$todo_list.coverage" NAME="todo_list Coverage Results" MODIFIED="1587845589939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Exercises$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1587834504474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Exercises$password_generator.coverage" NAME="password_generator Coverage Results" MODIFIED="1587767137648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="password_generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/password_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="782">
+              <caret line="47" selection-start-line="47" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calculator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+            <state relative-caret-position="1632">
+              <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gridlayout.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TkInterExample/gridlayout.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" selection-start-line="89" selection-end-line="92" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -53,6 +77,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/password_generator.py" />
         <option value="$PROJECT_DIR$/calculator.py" />
+        <option value="$PROJECT_DIR$/todo_list.py" />
       </list>
     </option>
   </component>
@@ -117,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.calculator">
+  <component name="RunManager" selected="Python.todo_list">
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,12 +181,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="todo_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todo_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.password_generator" />
       <item itemvalue="Python.calculator" />
+      <item itemvalue="Python.todo_list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.todo_list" />
         <item itemvalue="Python.calculator" />
         <item itemvalue="Python.password_generator" />
       </list>
@@ -185,26 +231,26 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24092409" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33828384" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +261,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -243,6 +289,51 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/password_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TkInterExample/gridlayout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="92" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/password_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Generators/Gen.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -260,24 +351,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TkInterChallenge/Calculator.py">
+    <entry file="file://$PROJECT_DIR$/../TkInterChallenge/Calculator.py" />
+    <entry file="file://$PROJECT_DIR$/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="110" />
+        <state relative-caret-position="1632">
+          <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/password_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        <state relative-caret-position="782">
+          <caret line="47" selection-start-line="47" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TkInterExample/gridlayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="92" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
